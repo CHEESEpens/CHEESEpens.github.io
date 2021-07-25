@@ -1,0 +1,27 @@
+.__footer__container {
+  background:white;
+  -webkit-box-shadow: 0px -4px 8px lightgrey;
+  -moz-box-shadow: 0px -4px 8px lightgrey;
+  box-shadow: 0px -4px 8px lightgrey;
+}
+
+
+.__footer__parentCompany{
+  background:black;
+  display:inline-block;
+  color:white;
+  text-transform: capitalize;
+  font-size:28px;
+  padding:10px;
+}
+
+.__footer__span {
+ display:inline-block;
+ font-size:21px;
+ margin-top:-10px;
+}
+
+.__footer__logo {
+  width:160px;
+  margin-top:-4px;
+}

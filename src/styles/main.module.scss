@@ -1,0 +1,33 @@
+
+.__mainImg,.__mediumImg {
+               display:none;
+}
+
+
+
+.buttons {
+               
+               background:transparent;
+               color:black;
+               border-color:black;
+               margin-right:20px;
+               border-radius:0px;
+               font-size:20px;
+               margin-top:10px;
+}
+
+.__h1{
+               font-size:60px;
+               background:black;
+               color:white;
+               padding:20px;
+              
+}
+
+.__row {
+               padding:70px 0px;
+               margin-top:150px;
+               
+}
+
+@import "./media-queries.scss";

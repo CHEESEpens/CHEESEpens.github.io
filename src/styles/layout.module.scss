@@ -1,0 +1,23 @@
+.header__module {
+              background:white !important;
+             // box-shadow:3px 3px 3px lightgrey;
+              
+              
+               
+}
+
+.logo {
+               width:140px;
+}
+               
+.navLink {
+               font-size:20px !important;
+               color:black !important;
+               text-decoration: none;
+               transition:text-decoration 2s; 
+}
+
+.navLink:hover {
+               text-decoration: underline;
+               
+}

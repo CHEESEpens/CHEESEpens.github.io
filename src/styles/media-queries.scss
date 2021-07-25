@@ -1,0 +1,348 @@
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+           
+              
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+               .__mainImg {
+                              display:inline;
+                              width: 750px;
+                              
+                              transform: rotate(-245deg);
+                              float: right;
+                              margin: 20px -200px 0px -200px;
+               }
+
+               .__h1{
+                              
+                              font-size:76px;
+                              line-height:58px;
+                              background:transparent;
+                              color:black;
+                              padding:0px;
+               }
+
+               .__productTitle {
+               
+                              text-transform: uppercase;
+                              
+                              border-bottom:1px solid grey;
+                              
+               }
+               
+               .__productPrice {
+               
+                              background:black;
+                              display:inline-block;
+                              color:white;
+                              font-size:20px;
+                             padding:10px;
+                            
+                             margin-top:-10px;
+               }
+               
+               .__productDescription {
+                              margin:10px 0px;
+                            
+                              text-align: justify;
+               }
+               
+               .__productFeaturesTitle {
+                              
+                              text-transform: capitalize;
+                              display:inline-block;
+                              border-bottom:1px solid grey;
+                              padding:10px 0px;
+                              font-size:26px;
+               }
+               
+               
+               
+              
+
+               
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+               .__mainImg {
+                              display: block;
+                              width: 720px;
+                             
+                              transform: rotate(-246deg);
+                              float: right;
+                              margin: 100px 0px 0px 0px;
+               }
+               .__h1{
+                              font-size:90px;
+                              line-height:78px;
+                              background:transparent;
+                              color:black;
+               }
+
+               .__productImage{
+                              transform:rotate(-270deg);
+                              -webkit-transform:rotate(-270deg);
+                              width:480px !important;
+                             
+               
+               }
+
+               .__productTitle {
+               
+                              text-transform: uppercase;
+                              
+                              border-bottom:1px solid grey;
+                              
+               }
+               
+               .__productPrice {
+               
+                              background:black;
+                              display:inline-block;
+                              color:white;
+                              font-size:20px;
+                             padding:10px;
+                             
+                             margin-top:-10px;
+               }
+               
+               .__productDescription {
+                              margin:10px 0px;
+                              
+                              text-align: justify;
+               }
+               
+               .__productFeaturesTitle {
+                              
+                              text-transform: capitalize;
+                              display:inline-block;
+                              border-bottom:1px solid grey;
+                              padding:10px 0px;
+                              font-size:26px;
+               }
+
+               .notSmImage{
+                              display:block;
+               }
+
+               
+
+               .__left{
+                              float:left;
+                              margin-left:-100px;
+               }
+               
+               .__right {
+                              float:right;
+                              margin-right: -100px;
+               }
+
+               .SmImage {
+                              display:none;
+               }
+
+               .buttons {
+                              margin-top:30px;
+               }
+
+               
+               
+               
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+               .__mainImg {
+                              display: block;
+                              width: 720px;
+                       
+                              transform: rotate(-246deg);
+                              float: right;
+                              margin: 100px 0px 0px 0px;
+               }
+               .__h1{
+                              font-size:90px;
+                              line-height:78px;
+                              background:transparent;
+                              color:black;
+               }
+
+               .__productImage{
+                              transform:rotate(-246deg);
+                              -webkit-transform:rotate(-246deg);
+                              width:450px !important;
+                              float:right;
+                              margin-right:5px;
+               
+               }
+
+               .__productTitle {
+               
+                              text-transform: uppercase;
+                              
+                              border-bottom:1px solid grey;
+                              
+               }
+               
+               .__productPrice {
+               
+                              background:black;
+                              display:inline-block;
+                              color:white;
+                              font-size:20px;
+                             padding:10px;
+                           
+                             margin-top:-10px;
+               }
+               
+               .__productDescription {
+                              margin:10px 0px;
+                             
+                              text-align: justify;
+               }
+               
+               .__productFeaturesTitle {
+                              
+                              text-transform: capitalize;
+                              display:inline-block;
+                              border-bottom:1px solid grey;
+                              padding:10px 0px;
+                              font-size:26px;
+               }
+
+               .notSmImage{
+                              display:block;
+               }
+
+               .SmImage {
+                              display:none;
+               }
+
+               .buttons {
+                              margin-top:30px;
+               }
+
+               .__left{
+                              float:left;
+                              margin-left:-100px;
+               }
+               
+               .__right {
+                              float:right;
+                              margin-right: -100px;
+               }
+
+               
+
+               
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+               .__mainImg {
+                              display: block;
+                              width: 720px;
+                             
+                              transform: rotate(-246deg);
+                              float: right;
+                              margin: 100px 0px 0px 0px;
+               }
+
+               .__h1{
+                              font-size:90px;
+                              line-height:78px;
+                              background:transparent;
+                              color:black;
+               }
+
+               .__productImage{
+                              transform:rotate(-246deg);
+                              -webkit-transform:rotate(-246deg);
+                              width:500px !important;
+                              float:right;
+                              margin-left:20px;
+               
+               }
+
+               .__productTitle {
+               
+                              text-transform: uppercase;
+                             
+                              border-bottom:1px solid grey;
+                              
+               }
+               
+               .__productPrice {
+               
+                              background:black;
+                              display:inline-block;
+                              color:white;
+                              font-size:20px;
+                             padding:10px;
+                            
+                             margin-top:-10px;
+               }
+               
+               .__productDescription {
+                              margin:10px 0px;
+                            
+                              text-align: justify;
+               }
+               
+               .__productFeaturesTitle {
+                              
+                              text-transform: capitalize;
+                              display:inline-block;
+                              border-bottom:1px solid grey;
+                              padding:10px 0px;
+                              font-size:26px;
+               }
+
+               .notSmImage {
+                              display:block;
+               }
+
+               
+
+               .SmImage {
+                              display:none;
+               }
+
+               .buttons {
+                              margin-top:30px;
+               }
+
+               .__left{
+                              float:left;
+                              margin-left:-100px;
+               }
+               
+               .__right {
+                              float:right;
+                              margin-right: -100px;
+               }
+
+              
+
+              
+
+               .__contact__social {
+                              font-size:40px;
+               }
+
+}

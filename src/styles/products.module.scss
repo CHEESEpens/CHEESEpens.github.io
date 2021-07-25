@@ -1,0 +1,71 @@
+.__h2{
+               padding: 60px 0px 0px 0px;
+               font-size: 40px;
+               
+}
+
+.__productImage{
+               
+               width:100%;
+               
+               padding:20px 0px;
+
+}
+
+.__row {
+               padding:40px 30px;
+               margin-top:60px;
+               // border:1px solid lightgrey;
+}
+
+.__productTitle {
+               
+               text-transform: uppercase;
+               font-size:26px;
+               border-bottom:1px solid grey;
+               padding:10px 0px;
+}
+
+.__productPrice {
+
+               background:black;
+               display:inline-block;
+               color:white;
+               font-size:20px;
+              padding:10px;
+        
+              margin-top:-10px;
+}
+
+.__productDescription {
+               margin:10px 0px 0px 0px;
+               font-size:23px;
+               text-align: justify;
+}
+
+.__productFeaturesTitle {
+               
+               text-transform: capitalize;
+               display:inline-block;
+               border-bottom:1px solid grey;
+               font-size:26px;
+               margin:8px 0px;
+}
+
+.listItem {
+               font-size:22px;
+}
+
+.notSmImage {
+               display:none;
+}
+
+
+
+.__border {
+               
+               background: linear-gradient(to top ,  rgb(245, 149, 149) 10%, #00000000 50%);
+               
+}
+
+@import "./media-queries.scss";
